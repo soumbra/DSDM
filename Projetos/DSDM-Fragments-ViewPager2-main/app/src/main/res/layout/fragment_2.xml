@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:background="#35a79c"
+    >
+
+    <ImageView
+        android:id="@+id/iVimage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:text="Desc"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="1dp"
+        android:textSize="35sp" />
+
+
+</FrameLayout>

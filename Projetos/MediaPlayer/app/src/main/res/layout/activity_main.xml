@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSound"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:text="Vianna"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="p,,arent"
+        app:layout_constraintTop_toBottomOf="@+id/iBtnWs" />
+
+    <ImageButton
+        android:id="@+id/iBtnVianna"
+        android:layout_width="138dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="45dp"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/iBtnVN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageButton
+        android:id="@+id/iBtnVN"
+        android:layout_width="137dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/iBtnIta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iBtnVianna"
+        app:srcCompat="@drawable/img_1" />
+
+    <ImageButton
+        android:id="@+id/iBtnIta"
+        android:layout_width="137dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/iBtnWs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iBtnVN"
+        app:srcCompat="@drawable/img_2" />
+
+    <ImageButton
+        android:id="@+id/iBtnWs"
+        android:layout_width="137dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="27dp"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnSound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iBtnIta"
+        app:srcCompat="@drawable/img_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
