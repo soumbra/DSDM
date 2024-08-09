@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goToSecondActivity(tarefaDao);
+                goToSecondActivity();
             }
         });
     }
@@ -76,9 +76,8 @@ public class MainActivity extends AppCompatActivity {
         itemArrayAdapter.notifyDataSetChanged();
     }
 
-    public void goToSecondActivity(TarefaDao tarefaDao) {
+    public void goToSecondActivity() {
         Intent intentSecond = new Intent(this, SecondActivity.class);
-        intentSecond.
         startActivity(intentSecond);
     }
 }
